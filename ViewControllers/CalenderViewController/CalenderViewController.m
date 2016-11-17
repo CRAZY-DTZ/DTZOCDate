@@ -60,7 +60,7 @@
 
 - (void)viewInit {
     //初始化日历
-    _calendar = [[FSCalendar alloc]initWithFrame:CGRectMake(0, 64, winSize.size.width, winSize.size.width/5*3)];
+    _calendar = [[FSCalendar alloc]initWithFrame:CGRectMake(0, 64, winSize.size.width, winSize.size.height/5*3)];
     _calendar.dataSource = self;
     _calendar.delegate = self;
     _calendar.appearance.eventColor = [UIColor blackColor];
@@ -78,7 +78,6 @@
     _smTableView.hidden = YES;
     _smTableView.layer.masksToBounds = NO;
     _smTableView.scrollEnabled = NO;
-    
     _smTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.view addSubview:_smTableView];
 }

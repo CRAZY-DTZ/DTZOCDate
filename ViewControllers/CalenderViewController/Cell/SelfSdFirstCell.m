@@ -15,7 +15,6 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     UIBezierPath *maskPath;
-    CGRect winSize = [[UIScreen mainScreen]bounds];
     maskPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(0, 0, winSize.size.width - 26, 60)
                                      byRoundingCorners:(UIRectCornerTopLeft | UIRectCornerTopRight)
                                            cornerRadii:CGSizeMake(10.0f, 10.0f)];

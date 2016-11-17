@@ -148,8 +148,8 @@
     _avatarImageView.userInteractionEnabled = YES;
     _avatarImageView.contentMode = UIViewContentModeScaleAspectFill;
     _avatarImageView.image = [UIImage imageNamed:@"XXXXX"];
-    //计算宽度、高度
-    CGRect winSize = [[UIScreen mainScreen]bounds];
+//    计算宽度、高度
+    
     CGFloat imageWidth = winSize.size.width;
     //添加约束
     [_avatarImageView mas_makeConstraints:^(MASConstraintMaker *make) {

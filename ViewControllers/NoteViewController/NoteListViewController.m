@@ -33,7 +33,6 @@
 
 #pragma mark tableview delegate && datasource
 - (void)setupTableView {
-    CGRect winSize = [[UIScreen mainScreen]bounds];
     UIView * topView = [[UIView alloc]initWithFrame:CGRectMake(13, 30, winSize.size.width - 26, 60)];
     topView.backgroundColor = [UIColor blackColor];
     [self.view addSubview:topView];

@@ -285,6 +285,10 @@
 		60E7B9161DDD506B00EC7827 /* SignInVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInVCViewController.h; sourceTree = "<group>"; };
 		60E7B9171DDD506B00EC7827 /* SignInVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInVCViewController.m; sourceTree = "<group>"; };
 		60E7B9181DDD506B00EC7827 /* SignInVCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInVCViewController.xib; sourceTree = "<group>"; };
+		60E7B9221DDDA4A100EC7827 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		60E7B9241DDDA57000EC7827 /* ColorSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSetting.h; sourceTree = "<group>"; };
+		60E7B9251DDDA57000EC7827 /* FrameSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameSetting.h; sourceTree = "<group>"; };
+		60E7B9261DDDA57000EC7827 /* ImageSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSetting.h; sourceTree = "<group>"; };
 		60F11D9B1D23675800A8987C /* ScheduleContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleContentCell.h; sourceTree = "<group>"; };
 		60F11D9C1D23675800A8987C /* ScheduleContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleContentCell.m; sourceTree = "<group>"; };
 		60F11D9D1D23675800A8987C /* ScheduleContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleContentCell.xib; sourceTree = "<group>"; };
@@ -607,6 +611,7 @@
 		60C5D5BD1D051C2C0000445C /* DTZOCDate */ = {
 			isa = PBXGroup;
 			children = (
+				60E7B9231DDDA57000EC7827 /* TimingSetting */,
 				60C5D5C11D051C2C0000445C /* AppDelegate.h */,
 				60C5D5C21D051C2C0000445C /* AppDelegate.m */,
 				60C5D5C41D051C2C0000445C /* ViewController.h */,
@@ -616,6 +621,7 @@
 				60C5D5CC1D051C2C0000445C /* LaunchScreen.storyboard */,
 				60C5D5CF1D051C2C0000445C /* Info.plist */,
 				60C5D5BE1D051C2C0000445C /* Supporting Files */,
+				60E7B9221DDDA4A100EC7827 /* PrefixHeader.pch */,
 			);
 			path = DTZOCDate;
 			sourceTree = "<group>";
@@ -813,6 +819,16 @@
 			children = (
 			);
 			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		60E7B9231DDDA57000EC7827 /* TimingSetting */ = {
+			isa = PBXGroup;
+			children = (
+				60E7B9241DDDA57000EC7827 /* ColorSetting.h */,
+				60E7B9251DDDA57000EC7827 /* FrameSetting.h */,
+				60E7B9261DDDA57000EC7827 /* ImageSetting.h */,
+			);
+			path = TimingSetting;
 			sourceTree = "<group>";
 		};
 		60F11D9A1D23659900A8987C /* Cell */ = {
@@ -1225,6 +1241,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1267,6 +1284,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1287,6 +1305,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = DTZOCDate/PrefixHeader.pch;
 				INFOPLIST_FILE = DTZOCDate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1307,6 +1327,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = DTZOCDate/PrefixHeader.pch;
 				INFOPLIST_FILE = DTZOCDate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

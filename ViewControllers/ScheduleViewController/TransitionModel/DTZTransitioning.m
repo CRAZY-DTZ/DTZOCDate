@@ -51,7 +51,6 @@
         self.selectedCell.frame = self.isPresent? self.finalFrame : self.originalFrame;
         [self.selectedCell layoutIfNeeded];
         //隐藏navigationBar 和tabbar
-        CGRect winSize = [[UIScreen mainScreen]bounds];
     } completion:^(BOOL finished) {
         addView.hidden = NO;
         [transitionContext completeTransition:YES];

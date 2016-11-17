@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  DTZOCDate
+//
+//  Created by wuhaibin on 16/11/17.
+//  Copyright © 2016年 wuhaibin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "ColorSetting.h"
+#import "FrameSetting.h"
+#import "ImageSetting.h"
+
+
+#endif /* PrefixHeader_pch */
