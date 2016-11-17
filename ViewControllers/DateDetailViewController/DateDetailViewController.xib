@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DateDetailViewController">
+            <connections>
+                <outlet property="dateLabel" destination="JrD-Ey-G3e" id="R4K-Q8-Iln"/>
+                <outlet property="detailTextView" destination="Fhh-O4-3TL" id="MOx-uR-9cW"/>
+                <outlet property="eventTitleLabel" destination="RcP-Sm-poq" id="8ED-Kt-E4q"/>
+                <outlet property="timeLabel" destination="sXb-CH-q2D" id="9zl-5T-6BB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="无尽" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RcP-Sm-poq">
+                    <rect key="frame" x="20" y="20" width="34" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016年6月22日 星期三" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JrD-Ey-G3e">
+                    <rect key="frame" x="20" y="46" width="136" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="下午6时-下午11时" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXb-CH-q2D">
+                    <rect key="frame" x="20" y="67" width="105" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Fhh-O4-3TL">
+                    <rect key="frame" x="40" y="103" width="520" height="477"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <mutableString key="text">作曲 : Supper Moment
+作词 : Supper Moment
+梦想於漆黑仍然仍然大声高唱
+仍然期待世界给我鼓掌
+是妄想 趁现在追赶失散方向
+曾怀著心底的信仰 千次万次跌伤
+ 
+开始不敢回头寻觅那真相
+明日那个幻想
+ 
+也开始不甘被雕刻成石像
+踏上这无尽旅途
+过去飘散消散失散花火
+重燃起 重燃点起鼓舞
+或许到最后没有完美句号
+仍然倔强冒险一一去征讨
+踏上这无尽旅途
+谁又能定你的丑恶与美好
+低与高离队抹走那刺心挖苦的劝告
+人生梦一场革命至苍老
+梦想 存活在别人期待那奖赏
+最后连自己都相信
+勇气不再热血结霜
+开始裹足停留开始习惯体谅
+也开始不甘被倒模的
+一个用剩力气去吧 鼓掌
+ 
+太多太多构思壁
+太多太多理想压抑
+沉默对应著岁月无声
+ 
+天空尚有片夕阳带领
+踏上这无尽旅途
+过去飘散消散失散花火
+重燃起 重燃点起鼓舞
+或许到最后没有完美句号
+仍然倔强冒险一一去征讨
+踏上这无尽旅途
+谁又能定你的丑恶与美好
+来提步 壮阔跑道
+合十双手去祷告
+人生梦一场革命至苍老
+ 
+难得梦一场革命不老</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Fhh-O4-3TL" secondAttribute="bottom" constant="20" id="0je-lS-bFm"/>
+                <constraint firstItem="sXb-CH-q2D" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="5nG-GW-SEt"/>
+                <constraint firstItem="JrD-Ey-G3e" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="6kH-c7-Wj8"/>
+                <constraint firstItem="Fhh-O4-3TL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="7H2-oO-qe9"/>
+                <constraint firstItem="RcP-Sm-poq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Bjq-Co-4RG"/>
+                <constraint firstItem="JrD-Ey-G3e" firstAttribute="top" secondItem="RcP-Sm-poq" secondAttribute="bottom" constant="5" id="JBl-eh-WdF"/>
+                <constraint firstItem="sXb-CH-q2D" firstAttribute="top" secondItem="JrD-Ey-G3e" secondAttribute="bottom" constant="5" id="MDz-gZ-Ywt"/>
+                <constraint firstItem="Fhh-O4-3TL" firstAttribute="top" secondItem="sXb-CH-q2D" secondAttribute="bottom" constant="20" id="Nto-AJ-yUw"/>
+                <constraint firstItem="RcP-Sm-poq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="ZlJ-eK-zBm"/>
+                <constraint firstAttribute="trailing" secondItem="Fhh-O4-3TL" secondAttribute="trailing" constant="40" id="eCV-ez-zFC"/>
+            </constraints>
+            <point key="canvasLocation" x="563" y="384"/>
+        </view>
+    </objects>
+</document>

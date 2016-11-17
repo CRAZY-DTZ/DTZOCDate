@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="92" id="KGk-i7-Jjw" customClass="AdsBookCell">
+            <rect key="frame" x="0.0" y="0.0" width="473" height="92"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="473" height="91.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Slw-h0-KQR">
+                        <rect key="frame" x="20" y="24" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="44" id="5hw-pt-Kn9"/>
+                            <constraint firstAttribute="height" constant="44" id="qGe-xX-V1G"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PhoneNum:123456789" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ab1-AF-bye">
+                        <rect key="frame" x="74" y="48" width="175" height="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="was-aa-o3w">
+                        <rect key="frame" x="20" y="91" width="453" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="IbB-39-CZF"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="陈冠希" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOt-Rv-wyY">
+                        <rect key="frame" x="74" y="24" width="51" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="was-aa-o3w" secondAttribute="bottom" id="BUb-xo-LWm"/>
+                    <constraint firstItem="Slw-h0-KQR" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="DX8-7i-HpU"/>
+                    <constraint firstItem="Slw-h0-KQR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="bYa-Kf-OBC"/>
+                    <constraint firstItem="qOt-Rv-wyY" firstAttribute="leading" secondItem="Slw-h0-KQR" secondAttribute="trailing" constant="10" id="cfx-4r-eG0"/>
+                    <constraint firstItem="qOt-Rv-wyY" firstAttribute="top" secondItem="Slw-h0-KQR" secondAttribute="top" id="edk-WE-y2y"/>
+                    <constraint firstItem="Ab1-AF-bye" firstAttribute="leading" secondItem="Slw-h0-KQR" secondAttribute="trailing" constant="10" id="ejI-eo-hpG"/>
+                    <constraint firstAttribute="trailing" secondItem="was-aa-o3w" secondAttribute="trailing" id="jge-Si-j3g"/>
+                    <constraint firstItem="Ab1-AF-bye" firstAttribute="bottom" secondItem="Slw-h0-KQR" secondAttribute="bottom" id="o6k-gn-vxS"/>
+                    <constraint firstItem="was-aa-o3w" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="yBa-zX-rMg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="avatarImageView" destination="Slw-h0-KQR" id="F8a-qo-M3T"/>
+                <outlet property="nicknameLabel" destination="qOt-Rv-wyY" id="rPW-t7-nSD"/>
+                <outlet property="phoneNumLabel" destination="Ab1-AF-bye" id="3r6-W8-CX5"/>
+            </connections>
+            <point key="canvasLocation" x="687.5" y="406"/>
+        </tableViewCell>
+    </objects>
+</document>
