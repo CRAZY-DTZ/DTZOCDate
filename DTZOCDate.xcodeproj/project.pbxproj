@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60175A1E1DDE9DF8002C7482 /* SelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60175A1C1DDE9DF8002C7482 /* SelectorViewController.m */; };
+		60175A1F1DDE9DF8002C7482 /* SelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60175A1D1DDE9DF8002C7482 /* SelectorViewController.xib */; };
+		60175A2D1DDEAE38002C7482 /* RejMesDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60175A2B1DDEAE38002C7482 /* RejMesDetailVC.m */; };
+		60175A2E1DDEAE38002C7482 /* RejMesDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60175A2C1DDEAE38002C7482 /* RejMesDetailVC.xib */; };
+		60175A321DDEAE48002C7482 /* AccMesDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60175A301DDEAE48002C7482 /* AccMesDetailVC.m */; };
+		60175A331DDEAE48002C7482 /* AccMesDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60175A311DDEAE48002C7482 /* AccMesDetailVC.xib */; };
+		60175A381DDEB0C7002C7482 /* TitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60175A361DDEB0C7002C7482 /* TitleCell.m */; };
+		60175A391DDEB0C7002C7482 /* TitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60175A371DDEB0C7002C7482 /* TitleCell.xib */; };
+		60175A3D1DDEB233002C7482 /* ContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60175A3B1DDEB233002C7482 /* ContentCell.m */; };
+		60175A3E1DDEB233002C7482 /* ContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60175A3C1DDEB233002C7482 /* ContentCell.xib */; };
+		60175A421DDEB246002C7482 /* InviteesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60175A401DDEB246002C7482 /* InviteesCell.m */; };
+		60175A431DDEB246002C7482 /* InviteesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60175A411DDEB246002C7482 /* InviteesCell.xib */; };
+		60175A471DDEB255002C7482 /* AlertCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60175A451DDEB255002C7482 /* AlertCell.m */; };
+		60175A481DDEB255002C7482 /* AlertCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60175A461DDEB255002C7482 /* AlertCell.xib */; };
+		60175A4B1DDEB435002C7482 /* TimingNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 60175A4A1DDEB435002C7482 /* TimingNetworkManager.m */; };
 		602A4C981D2DFE1000ECA011 /* PersonalProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 602A4C961D2DFE1000ECA011 /* PersonalProfileViewController.m */; };
 		602A4C991D2DFE1000ECA011 /* PersonalProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 602A4C971D2DFE1000ECA011 /* PersonalProfileViewController.xib */; };
 		604E684E1D06760800DABD52 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 604E684C1D06760800DABD52 /* PersonalViewController.m */; };
@@ -37,8 +52,6 @@
 		607FCBAB1D1BB815002115A6 /* SelfSdFirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FCBA91D1BB815002115A6 /* SelfSdFirstCell.xib */; };
 		6099B9881D17CB8B006BE4FD /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6099B9871D17CB8B006BE4FD /* AddressBook.framework */; };
 		6099B98B1D17DF10006BE4FD /* ContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6099B98A1D17DF10006BE4FD /* ContactModel.m */; };
-		60A0B0FE1D13E5F600B191FE /* ScheduleNaivgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A0B0FC1D13E5F600B191FE /* ScheduleNaivgationController.m */; };
-		60A0B0FF1D13E5F600B191FE /* ScheduleNaivgationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60A0B0FD1D13E5F600B191FE /* ScheduleNaivgationController.xib */; };
 		60A44C121D1A389000B49301 /* SmTableviewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A44C111D1A389000B49301 /* SmTableviewDelegate.m */; };
 		60A44C151D1A3C5100B49301 /* SMTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A44C141D1A3C5100B49301 /* SMTableViewDataSource.m */; };
 		60A44C1A1D1A79C900B49301 /* DateDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A44C181D1A79C900B49301 /* DateDetailViewController.m */; };
@@ -131,6 +144,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60175A1B1DDE9DF8002C7482 /* SelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectorViewController.h; sourceTree = "<group>"; };
+		60175A1C1DDE9DF8002C7482 /* SelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectorViewController.m; sourceTree = "<group>"; };
+		60175A1D1DDE9DF8002C7482 /* SelectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectorViewController.xib; sourceTree = "<group>"; };
+		60175A2A1DDEAE38002C7482 /* RejMesDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RejMesDetailVC.h; sourceTree = "<group>"; };
+		60175A2B1DDEAE38002C7482 /* RejMesDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RejMesDetailVC.m; sourceTree = "<group>"; };
+		60175A2C1DDEAE38002C7482 /* RejMesDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RejMesDetailVC.xib; sourceTree = "<group>"; };
+		60175A2F1DDEAE48002C7482 /* AccMesDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccMesDetailVC.h; sourceTree = "<group>"; };
+		60175A301DDEAE48002C7482 /* AccMesDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccMesDetailVC.m; sourceTree = "<group>"; };
+		60175A311DDEAE48002C7482 /* AccMesDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccMesDetailVC.xib; sourceTree = "<group>"; };
+		60175A351DDEB0C7002C7482 /* TitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleCell.h; sourceTree = "<group>"; };
+		60175A361DDEB0C7002C7482 /* TitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleCell.m; sourceTree = "<group>"; };
+		60175A371DDEB0C7002C7482 /* TitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleCell.xib; sourceTree = "<group>"; };
+		60175A3A1DDEB233002C7482 /* ContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentCell.h; sourceTree = "<group>"; };
+		60175A3B1DDEB233002C7482 /* ContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentCell.m; sourceTree = "<group>"; };
+		60175A3C1DDEB233002C7482 /* ContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentCell.xib; sourceTree = "<group>"; };
+		60175A3F1DDEB246002C7482 /* InviteesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteesCell.h; sourceTree = "<group>"; };
+		60175A401DDEB246002C7482 /* InviteesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InviteesCell.m; sourceTree = "<group>"; };
+		60175A411DDEB246002C7482 /* InviteesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InviteesCell.xib; sourceTree = "<group>"; };
+		60175A441DDEB255002C7482 /* AlertCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertCell.h; sourceTree = "<group>"; };
+		60175A451DDEB255002C7482 /* AlertCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertCell.m; sourceTree = "<group>"; };
+		60175A461DDEB255002C7482 /* AlertCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertCell.xib; sourceTree = "<group>"; };
+		60175A491DDEB435002C7482 /* TimingNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimingNetworkManager.h; sourceTree = "<group>"; };
+		60175A4A1DDEB435002C7482 /* TimingNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimingNetworkManager.m; sourceTree = "<group>"; };
 		602A4C951D2DFE1000ECA011 /* PersonalProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalProfileViewController.h; sourceTree = "<group>"; };
 		602A4C961D2DFE1000ECA011 /* PersonalProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalProfileViewController.m; sourceTree = "<group>"; };
 		602A4C971D2DFE1000ECA011 /* PersonalProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalProfileViewController.xib; sourceTree = "<group>"; };
@@ -179,9 +215,6 @@
 		6099B9871D17CB8B006BE4FD /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		6099B9891D17DF10006BE4FD /* ContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactModel.h; sourceTree = "<group>"; };
 		6099B98A1D17DF10006BE4FD /* ContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactModel.m; sourceTree = "<group>"; };
-		60A0B0FB1D13E5F600B191FE /* ScheduleNaivgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleNaivgationController.h; sourceTree = "<group>"; };
-		60A0B0FC1D13E5F600B191FE /* ScheduleNaivgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleNaivgationController.m; sourceTree = "<group>"; };
-		60A0B0FD1D13E5F600B191FE /* ScheduleNaivgationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleNaivgationController.xib; sourceTree = "<group>"; };
 		60A44C101D1A389000B49301 /* SmTableviewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmTableviewDelegate.h; sourceTree = "<group>"; };
 		60A44C111D1A389000B49301 /* SmTableviewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmTableviewDelegate.m; sourceTree = "<group>"; };
 		60A44C131D1A3C5100B49301 /* SMTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTableViewDataSource.h; sourceTree = "<group>"; };
@@ -340,6 +373,121 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60175A1A1DDE9DE1002C7482 /* SelectorVC */ = {
+			isa = PBXGroup;
+			children = (
+				60175A1B1DDE9DF8002C7482 /* SelectorViewController.h */,
+				60175A1C1DDE9DF8002C7482 /* SelectorViewController.m */,
+				60175A1D1DDE9DF8002C7482 /* SelectorViewController.xib */,
+			);
+			path = SelectorVC;
+			sourceTree = "<group>";
+		};
+		60175A201DDEAA78002C7482 /* EventViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				60175A211DDEAD37002C7482 /* Self */,
+				60175A221DDEAD37002C7482 /* MessageViewController */,
+			);
+			path = EventViewControllers;
+			sourceTree = "<group>";
+		};
+		60175A211DDEAD37002C7482 /* Self */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Self;
+			sourceTree = "<group>";
+		};
+		60175A221DDEAD37002C7482 /* MessageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				60175A231DDEADC3002C7482 /* MessageDetailVC */,
+				60175A241DDEADC3002C7482 /* MessageDataManager */,
+				60175A251DDEADC3002C7482 /* MessageSetting */,
+				60175A261DDEADC3002C7482 /* RejectedType */,
+				60175A271DDEADC3002C7482 /* AcceptedType */,
+			);
+			path = MessageViewController;
+			sourceTree = "<group>";
+		};
+		60175A231DDEADC3002C7482 /* MessageDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				60175A341DDEB07B002C7482 /* Cell */,
+				60175A281DDEAE01002C7482 /* RejMesDetailVC */,
+				60175A291DDEAE01002C7482 /* AccMesDetailVC */,
+			);
+			path = MessageDetailVC;
+			sourceTree = "<group>";
+		};
+		60175A241DDEADC3002C7482 /* MessageDataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MessageDataManager;
+			sourceTree = "<group>";
+		};
+		60175A251DDEADC3002C7482 /* MessageSetting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MessageSetting;
+			sourceTree = "<group>";
+		};
+		60175A261DDEADC3002C7482 /* RejectedType */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RejectedType;
+			sourceTree = "<group>";
+		};
+		60175A271DDEADC3002C7482 /* AcceptedType */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AcceptedType;
+			sourceTree = "<group>";
+		};
+		60175A281DDEAE01002C7482 /* RejMesDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				60175A2A1DDEAE38002C7482 /* RejMesDetailVC.h */,
+				60175A2B1DDEAE38002C7482 /* RejMesDetailVC.m */,
+				60175A2C1DDEAE38002C7482 /* RejMesDetailVC.xib */,
+			);
+			path = RejMesDetailVC;
+			sourceTree = "<group>";
+		};
+		60175A291DDEAE01002C7482 /* AccMesDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				60175A2F1DDEAE48002C7482 /* AccMesDetailVC.h */,
+				60175A301DDEAE48002C7482 /* AccMesDetailVC.m */,
+				60175A311DDEAE48002C7482 /* AccMesDetailVC.xib */,
+			);
+			path = AccMesDetailVC;
+			sourceTree = "<group>";
+		};
+		60175A341DDEB07B002C7482 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				60175A351DDEB0C7002C7482 /* TitleCell.h */,
+				60175A361DDEB0C7002C7482 /* TitleCell.m */,
+				60175A371DDEB0C7002C7482 /* TitleCell.xib */,
+				60175A3A1DDEB233002C7482 /* ContentCell.h */,
+				60175A3B1DDEB233002C7482 /* ContentCell.m */,
+				60175A3C1DDEB233002C7482 /* ContentCell.xib */,
+				60175A3F1DDEB246002C7482 /* InviteesCell.h */,
+				60175A401DDEB246002C7482 /* InviteesCell.m */,
+				60175A411DDEB246002C7482 /* InviteesCell.xib */,
+				60175A441DDEB255002C7482 /* AlertCell.h */,
+				60175A451DDEB255002C7482 /* AlertCell.m */,
+				60175A461DDEB255002C7482 /* AlertCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		602369EE1DDC39E300F9F00D /* SignInVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -483,16 +631,6 @@
 			children = (
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		60A0B0FA1D13E5B700B191FE /* NavigationControllers */ = {
-			isa = PBXGroup;
-			children = (
-				60A0B0FB1D13E5F600B191FE /* ScheduleNaivgationController.h */,
-				60A0B0FC1D13E5F600B191FE /* ScheduleNaivgationController.m */,
-				60A0B0FD1D13E5F600B191FE /* ScheduleNaivgationController.xib */,
-			);
-			path = NavigationControllers;
 			sourceTree = "<group>";
 		};
 		60A44C0F1D1A381300B49301 /* DataSource */ = {
@@ -655,12 +793,13 @@
 		60C5D5F11D051DA20000445C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				60175A201DDEAA78002C7482 /* EventViewControllers */,
+				60175A1A1DDE9DE1002C7482 /* SelectorVC */,
 				602369EE1DDC39E300F9F00D /* SignInVC */,
 				605A6F741D25107C006BAC8F /* UpdateViewController */,
 				605A6F6E1D24F7C0006BAC8F /* AvatarViewController */,
 				60A820721D2279500089DC82 /* AddViewControllers */,
 				60A44C161D1A79B000B49301 /* DateDetailViewController */,
-				60A0B0FA1D13E5B700B191FE /* NavigationControllers */,
 				6077455E1D12494800215B8B /* NoteViewController */,
 				604E68481D0675F600DABD52 /* PersonalViewController */,
 				60C5D5F21D051DA20000445C /* AddressBookViewController */,
@@ -817,6 +956,8 @@
 		60E7B9201DDD9B3D00EC7827 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				60175A491DDEB435002C7482 /* TimingNetworkManager.h */,
+				60175A4A1DDEB435002C7482 /* TimingNetworkManager.m */,
 			);
 			path = NetworkManager;
 			sourceTree = "<group>";
@@ -998,15 +1139,18 @@
 				605A6F801D251AF4006BAC8F /* UpdateCell.xib in Resources */,
 				607745731D1259C300215B8B /* ScheduleCell.xib in Resources */,
 				605A6F731D24F7DB006BAC8F /* AvatarViewController.xib in Resources */,
+				60175A2E1DDEAE38002C7482 /* RejMesDetailVC.xib in Resources */,
 				607FCBAB1D1BB815002115A6 /* SelfSdFirstCell.xib in Resources */,
+				60175A3E1DDEB233002C7482 /* ContentCell.xib in Resources */,
+				60175A1F1DDE9DF8002C7482 /* SelectorViewController.xib in Resources */,
 				60F11DF21D23CE6A00A8987C /* InvitingCell.xib in Resources */,
 				60F11D9F1D23675800A8987C /* ScheduleContentCell.xib in Resources */,
 				605A6F7A1D25109B006BAC8F /* UpdateViewController.xib in Resources */,
 				602A4C991D2DFE1000ECA011 /* PersonalProfileViewController.xib in Resources */,
 				60C5D61E1D057A580000445C /* SdCell.xib in Resources */,
 				60F5A3F11D1143C000AD8B03 /* TestCell.xib in Resources */,
+				60175A431DDEB246002C7482 /* InviteesCell.xib in Resources */,
 				60A8206C1D225FD50089DC82 /* AvatarCell.xib in Resources */,
-				60A0B0FF1D13E5F600B191FE /* ScheduleNaivgationController.xib in Resources */,
 				60F11DAE1D23B5FF00A8987C /* RemarkCell.xib in Resources */,
 				60F11DA91D23A05A00A8987C /* RemindCell.xib in Resources */,
 				60C5D5FB1D051DBB0000445C /* CalenderViewController.xib in Resources */,
@@ -1019,9 +1163,12 @@
 				60C5D5C91D051C2C0000445C /* Main.storyboard in Resources */,
 				60C7D6BB1D193B340021C8F4 /* CalCell.xib in Resources */,
 				604E684F1D06760800DABD52 /* PersonalViewController.xib in Resources */,
+				60175A331DDEAE48002C7482 /* AccMesDetailVC.xib in Resources */,
+				60175A481DDEB255002C7482 /* AlertCell.xib in Resources */,
 				60C5D6261D057CEE0000445C /* ScheduleViewController.xib in Resources */,
 				6077456E1D124C8D00215B8B /* NoteCell.xib in Resources */,
 				605A6F6D1D24C0F9006BAC8F /* DatePickerCell.xib in Resources */,
+				60175A391DDEB0C7002C7482 /* TitleCell.xib in Resources */,
 				60A8202C1D20CC680089DC82 /* BookFirstCell.xib in Resources */,
 				60A820631D2211360089DC82 /* Info.plist in Resources */,
 				60E7B91A1DDD506B00EC7827 /* SignInVCViewController.xib in Resources */,
@@ -1097,11 +1244,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60175A421DDEB246002C7482 /* InviteesCell.m in Sources */,
 				60A44C121D1A389000B49301 /* SmTableviewDelegate.m in Sources */,
 				60A820561D2211360089DC82 /* FSCalendar+Deprecated.m in Sources */,
 				60A820581D2211360089DC82 /* FSCalendar.m in Sources */,
 				604E68521D06763C00DABD52 /* PersonalDataSource.m in Sources */,
 				60C5D5FA1D051DBB0000445C /* CalenderViewController.m in Sources */,
+				60175A471DDEB255002C7482 /* AlertCell.m in Sources */,
 				60A820551D2211360089DC82 /* FSCalendar+DateTools.m in Sources */,
 				60A8206B1D225FD50089DC82 /* AvatarCell.m in Sources */,
 				605A6F6C1D24C0F9006BAC8F /* DatePickerCell.m in Sources */,
@@ -1121,13 +1270,16 @@
 				60C5D60B1D055E9A0000445C /* ABDataSource.m in Sources */,
 				6099B98B1D17DF10006BE4FD /* ContactModel.m in Sources */,
 				60C5D6121D0577490000445C /* AdsBookCell.m in Sources */,
+				60175A4B1DDEB435002C7482 /* TimingNetworkManager.m in Sources */,
 				60A820611D2211360089DC82 /* FSCalendarScopeHandle.m in Sources */,
 				605A6F831D252324006BAC8F /* NoteListViewController.m in Sources */,
 				60C5D6251D057CEE0000445C /* ScheduleViewController.m in Sources */,
 				60F11DF11D23CE6A00A8987C /* InvitingCell.m in Sources */,
+				60175A3D1DDEB233002C7482 /* ContentCell.m in Sources */,
+				60175A381DDEB0C7002C7482 /* TitleCell.m in Sources */,
 				607745771D12A85C00215B8B /* SecondViewController.m in Sources */,
+				60175A2D1DDEAE38002C7482 /* RejMesDetailVC.m in Sources */,
 				60A820641D2211360089DC82 /* UIView+FSExtension.m in Sources */,
-				60A0B0FE1D13E5F600B191FE /* ScheduleNaivgationController.m in Sources */,
 				607745721D1259C300215B8B /* ScheduleCell.m in Sources */,
 				607745691D124A2D00215B8B /* NoteDataSource.m in Sources */,
 				606C66F81D0D46BC00C2F060 /* DTZTransitioning.m in Sources */,
@@ -1148,6 +1300,7 @@
 				60F5A3F01D1143C000AD8B03 /* TestCell.m in Sources */,
 				602A4C981D2DFE1000ECA011 /* PersonalProfileViewController.m in Sources */,
 				60C5D60E1D0560F80000445C /* AdsBookModel.m in Sources */,
+				60175A1E1DDE9DF8002C7482 /* SelectorViewController.m in Sources */,
 				60A820571D2211360089DC82 /* FSCalendar+IBExtension.m in Sources */,
 				60C5D5C31D051C2C0000445C /* AppDelegate.m in Sources */,
 				60A8205F1D2211360089DC82 /* FSCalendarFlowLayout.m in Sources */,
@@ -1155,6 +1308,7 @@
 				607FCBAA1D1BB815002115A6 /* SelfSdFirstCell.m in Sources */,
 				6077456D1D124C8D00215B8B /* NoteCell.m in Sources */,
 				60F11D9E1D23675800A8987C /* ScheduleContentCell.m in Sources */,
+				60175A321DDEAE48002C7482 /* AccMesDetailVC.m in Sources */,
 				60C5D6211D057A6F0000445C /* SdCacheManager.m in Sources */,
 				60C5D5C01D051C2C0000445C /* main.m in Sources */,
 				60F11DA81D23A05A00A8987C /* RemindCell.m in Sources */,
@@ -1314,7 +1468,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.scau.DTZ.DTZOCDate;
+				PRODUCT_BUNDLE_IDENTIFIER = org.scau.DTZ.Timing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -1336,7 +1490,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.scau.DTZ.DTZOCDate;
+				PRODUCT_BUNDLE_IDENTIFIER = org.scau.DTZ.Timing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

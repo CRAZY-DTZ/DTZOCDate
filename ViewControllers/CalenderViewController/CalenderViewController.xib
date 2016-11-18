@@ -8,6 +8,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CalenderViewController">
             <connections>
+                <outlet property="_addBtn" destination="6NQ-Fe-y0X" id="430-hp-nYq"/>
+                <outlet property="_calContentView" destination="wqp-U5-Ir4" id="aJo-X4-VbB"/>
+                <outlet property="_messageBtn" destination="JJi-kv-XWK" id="iWQ-3X-tTh"/>
+                <outlet property="_selectorBtn" destination="BiO-vk-oKI" id="OON-OL-0Pf"/>
+                <outlet property="_settingBtn" destination="egw-OF-ioX" id="o3i-sj-tTF"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,8 +20,70 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wqp-U5-Ir4" userLabel="CalContentView">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egw-OF-ioX">
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Setting">
+                        <color key="titleColor" red="1" green="0.0" blue="0.083229066430389409" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="settingAction:" destination="-1" eventType="touchUpInside" id="IdH-ri-QIx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6NQ-Fe-y0X">
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Add">
+                        <color key="titleColor" red="1" green="0.0" blue="0.083229066429999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="addAction:" destination="-1" eventType="touchUpInside" id="rV8-NO-HSy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJi-kv-XWK">
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Message">
+                        <color key="titleColor" red="1" green="0.0" blue="0.083229066429999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="messageAction:" destination="-1" eventType="touchUpInside" id="yUp-zW-ZaT"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="664-Iy-T4E">
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BiO-vk-oKI">
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Selector">
+                        <color key="titleColor" red="1" green="0.0" blue="0.083229066429999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="selectAction:" destination="-1" eventType="touchUpInside" id="UBU-u2-ifd"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <point key="canvasLocation" x="187" y="308"/>
+            <constraints>
+                <constraint firstItem="664-Iy-T4E" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0YP-4p-oMb"/>
+                <constraint firstItem="wqp-U5-Ir4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="0fA-Zf-bsA"/>
+                <constraint firstAttribute="bottom" secondItem="wqp-U5-Ir4" secondAttribute="bottom" constant="64" id="5zn-8D-K3V"/>
+                <constraint firstAttribute="bottom" secondItem="JJi-kv-XWK" secondAttribute="bottom" constant="20" id="7Uo-J3-PaG"/>
+                <constraint firstAttribute="trailing" secondItem="6NQ-Fe-y0X" secondAttribute="trailing" constant="20" id="CNf-gI-2UV"/>
+                <constraint firstItem="wqp-U5-Ir4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="CSV-g3-640"/>
+                <constraint firstAttribute="trailing" secondItem="JJi-kv-XWK" secondAttribute="trailing" constant="20" id="IHu-ix-Njn"/>
+                <constraint firstAttribute="trailing" secondItem="wqp-U5-Ir4" secondAttribute="trailing" constant="20" id="K62-PI-eOb"/>
+                <constraint firstItem="egw-OF-ioX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="QCj-mo-XTw"/>
+                <constraint firstItem="664-Iy-T4E" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="cEU-zg-dfc"/>
+                <constraint firstItem="6NQ-Fe-y0X" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="jfz-Mm-IVr"/>
+                <constraint firstItem="BiO-vk-oKI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="kCb-YD-A7j"/>
+                <constraint firstAttribute="bottom" secondItem="BiO-vk-oKI" secondAttribute="bottom" constant="20" id="xMl-pw-ryD"/>
+                <constraint firstItem="egw-OF-ioX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="xc7-YV-nYv"/>
+            </constraints>
+            <point key="canvasLocation" x="-486" y="-617"/>
         </view>
     </objects>
 </document>

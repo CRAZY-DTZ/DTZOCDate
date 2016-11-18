@@ -16,7 +16,6 @@
 #import "SMTableViewDataSource.h"
 #import <Masonry.h>
 
-#define winSize [[UIScreen mainScreen]bounds]
 
 @interface ScheduleViewController () <UITableViewDelegate> {
     UITableView *_scheduleTableView;
@@ -30,9 +29,6 @@
     IBOutlet UILabel *_personalSignature;
     
     IBOutlet UIImageView *_avatarImageView;
-    
-    
-
 }
 
 @end

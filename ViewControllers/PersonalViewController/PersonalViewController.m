@@ -32,6 +32,13 @@
     [super didReceiveMemoryWarning];
 }
 
+
+#pragma mark - navigationAppearence 
+- (void)navigationAppearence {
+    
+    
+}
+
 #pragma mark - tableview delegate
 - (void)setTableView {
     _personalTableView.delegate = self;
